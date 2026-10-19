@@ -83,6 +83,20 @@ The lab evidence for this project includes screenshots of the virtual machines, 
 ### 8. Unauthorized User Access Test
 ![Unauthorized-user access test](8-unauthorized-user-access-test.png)
 
+## Documentation
+
+- [Shared Folder Access Test Report](docs/shared-folder-access-test.md)
+- [Troubleshooting Log](docs/troubleshooting-log.md)
+
+## Skills Demonstrated
+
+- Windows Server 2019 administration
+- Active Directory user and group management
+- Windows domain joining and domain login
+- DNS configuration and network connectivity testing
+- SMB file sharing and access permissions
+- Troubleshooting and technical documentation
+
 ## Project Summary
 
 This lab provided practical experience with Windows administration and common IT support responsibilities, including account management, domain connectivity, shared-folder access, permission testing, and troubleshooting.
