@@ -2,56 +2,62 @@
 
 ## Project Overview
 
-I built this virtual home lab using VMware Workstation to practice Windows Server administration and common IT support tasks. The lab includes Windows Server 2019 and a Windows 10 client connected to an Active Directory domain.
+This project demonstrates my hands-on practice with Windows Server 2019, Active Directory, DNS, Windows 10 domain connectivity, and shared-folder access control. I built the lab using VMware Workstation to practice common IT support and Windows administration tasks.
 
 ## Lab Environment
 
-- Virtualization: VMware Workstation
-- Server: Windows Server 2019
-- Client: Windows 10
-- Directory service: Active Directory Domain Services
-- Shared folder: CompanyShare
+- **Virtualization:** VMware Workstation
+- **Server Operating System:** Windows Server 2019
+- **Client Operating System:** Windows 10
+- **Directory Service:** Active Directory Domain Services (AD DS)
+- **DNS:** Domain name resolution
+- **File Sharing:** SMB shared folder named `CompanyShare`
 
 ## Tasks Completed
 
-- Configured the Windows Server and Windows client lab.
-- Set up Active Directory users and security groups.
-- Joined the Windows 10 client to the domain.
-- Successfully tested login using a domain user account.
-- Created a shared folder named CompanyShare.
-- Verified the share using the net share command.
+- Configured a virtual Windows Server and Windows 10 client.
+- Created and managed Active Directory users and security groups.
+- Configured DNS and network settings for the lab.
+- Joined the Windows 10 client to the Active Directory domain.
+- Tested login using a domain user account.
+- Created a shared folder named `CompanyShare`.
+- Verified the shared folder using the `net share` command.
 - Accessed the shared folder from the Windows 10 client.
-- Created and saved Client-Test.txt from the client to verify write access.
+- Created and saved `Client-Test.txt` from the client to test write access.
+- Reviewed NTFS permissions for the shared folder.
 - Tested access using a separate user outside the intended authorized group; access was denied.
-- Checked network connectivity using ping.
-- Verified that the Windows Server service was running and set to start automatically.
+- Used `ping` to test network connectivity.
+- Verified that the Windows Server service was running and configured to start automatically.
+- Troubleshot an initial shared-folder access issue and confirmed that access was subsequently working.
 
-## Troubleshooting
-
-Initially, the Windows client could not access the shared folder. Ping to the server IP worked, and the Server service was running. I later gained access to the share and successfully created a test file. The exact cause of the initial error was not confirmed.
-
-## Skills Practiced
+## Technical Skills Practiced
 
 - Windows Server administration
 - Active Directory user and group management
-- Domain account login testing
+- Domain joining and domain account login testing
+- DNS and basic network troubleshooting
 - SMB file sharing
-- Share and NTFS permission concepts
-- User access testing
-- Basic network troubleshooting
-- Technical documentation
+- Share and NTFS permissions
+- User access verification
+- Windows service management
+- Troubleshooting and technical documentation
 
-## Screenshots
+## Troubleshooting Experience
 
-I will add screenshots documenting the virtual machines, Active Directory, DNS, shared-folder permissions, successful access, and unauthorized access testing.
+The Windows 10 client initially could not access `CompanyShare`. I checked network connectivity with `ping`, verified that the share existed using `net share`, and confirmed that the Windows Server service was running. I later restored access, successfully created a test file from the client, and tested access with a separate unauthorized user.
 
-## Security Note
+The exact cause of the original access problem was not confirmed, so I have documented the checks and verified results rather than assuming a root cause.
 
-Actual domain names, IP addresses, usernames, and passwords are not included in this documentation. Exact NTFS permission entries still need to be documented.
+## Project Evidence
 
-## Future Improvements
+The lab evidence for this project includes screenshots of the virtual machines, server configuration, Active Directory, DNS, Windows 10 client, shared-folder write testing, NTFS permission review, and unauthorized-user access testing.
 
-- Add screenshots of the completed lab.
-- Document the exact share and NTFS permissions.
-- Add a detailed test-results report.
-- Continue practicing Windows troubleshooting and access control.
+## Security Considerations
+
+- Actual passwords are not included in this documentation.
+- Screenshots should be reviewed to ensure they do not expose sensitive credentials or unnecessary personal information.
+- Share permissions and NTFS permissions work together to determine access to shared files and folders.
+
+## Project Summary
+
+This lab provided practical experience with Windows administration and common IT support responsibilities, including account management, domain connectivity, shared-folder access, permission testing, and troubleshooting.
