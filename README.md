@@ -57,6 +57,31 @@ The lab evidence for this project includes screenshots of the virtual machines, 
 - Actual passwords are not included in this documentation.
 - Screenshots should be reviewed to ensure they do not expose sensitive credentials or unnecessary personal information.
 - Share permissions and NTFS permissions work together to determine access to shared files and folders.
+## Lab Screenshots
+
+### 1. Virtual Machines
+![VMware virtual machines](01-virtual-machines.png)
+
+### 2. Server Identity
+![Windows Server identity](02-server-identity.png)
+
+### 3. Active Directory
+![Active Directory configuration](03-active-directory.png)
+
+### 4. DNS Configuration
+![DNS configuration](04-dns-configuration.png)
+
+### 5. Windows 10 Client
+![Windows 10 client](05-windows10-client.png)
+
+### 6. Shared Folder Write Test
+![Successful shared-folder write test](6-shared-folder-write-test.png)
+
+### 7. CompanyShare NTFS Permissions
+![CompanyShare NTFS permissions](7-companyshare-ntfs-permissions.png)
+
+### 8. Unauthorized User Access Test
+![Unauthorized-user access test](8-unauthorized-user-access-test.png)
 
 ## Project Summary
 
